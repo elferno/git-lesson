@@ -7,6 +7,7 @@ git remote set-url origin https://github.com/elferno/ ... .git  - изменит
 git add .
 git commit -m "v.1.0.0"
 git push -u origin main
+git push -f origin main - переписать существующий репозиторий принудительно
 
 # start new project #
 
@@ -31,6 +32,7 @@ git pull                          - забрать свежие обновлен
 git rm -r --cached file/folder    - удалить из текущего репозитория файл/папку (но не трогать локальный файл/папку)
 git commit -am "remove file/fold" - закомитить изменения
 git push                          - запушить (удалить файл/папку из удаленного репозитория)
+git push -f                       - переписать существующий репозиторий принудительно
 
 git remote set-url origin https://github.com/elferno/ ... .git  - изменить текущий репозиторий
 
